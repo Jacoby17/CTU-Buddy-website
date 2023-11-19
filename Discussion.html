@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CTU-Buddy | Discussion</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header>
+    <h1>City Technical University</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="timetable.html">Timetable</a></li>
+        <li><a href="discussion.html">Discussion</a></li>
+        <li><a href="share-resources.html">Share Resources</a></li>
+        <li><a href="about-us.html">About Us</a></li>
+        <li><a href="contact-us.html">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main>
+	<section class="page-description">
+    <h2>Discussion Page</h2>
+    <p>Engage in interactive discussions on our Discussion page. Connect with peers and educators, ask questions, and share knowledge, fostering a collaborative and productive learning community.</p>
+  </section>
+    <h1>Discussion</h1>
+    <!-- a Form for posting questions and comments -->
+    <form>
+      <label for="question">Post your question:</label>
+      <textarea id="question" name="question" rows="4" cols="50"></textarea>
+      <button type="submit">Submit</button>
+    </form>
+    <!-- Display the discussion thread here -->
+    <div class="discussion-thread">
+      <h3>Question Title</h3>
+      <p>Posted by: John Doe | Date: 2023-08-07</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut in tellus magna.</p>
+      <!-- Responses to the question is going to go here (nested discussion) -->
+      <div class="response">
+        <p>Posted by: Jane Doe | Date: 2023-08-08</p>
+        <p>Etiam consequat, libero sit amet scelerisque ultrices, orci dui gravida felis.</p>
+      </div>
+      <!-- More responses as needed -->
+    </div>
+    <!-- Pagination or load more button if there are multiple discussions is going to go here -->
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <p>&copy; 2023 CTU-Buddy. All rights reserved.</p>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="timetable.html">Timetable</a></li>
+          <li><a href="discussion.html">Discussion</a></li>
+          <li><a href="share-resources.html">Share Resources</a></li>
+          <li><a href="about-us.html">About Us</a></li>
+          <li><a href="contact-us.html">Contact Us</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+</body>
